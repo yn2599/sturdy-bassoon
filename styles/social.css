@@ -1,0 +1,23 @@
+ a.social{
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  /* background-image: var(--bg-img); */
+
+  -webkit-background-clip: initial;
+  background-clip: initial;
+
+
+  &[aria-label="tiktok"]{
+    background-image: url(../assets/icons/tiktok.svg);
+  }
+  &[aria-label="instagram"]{
+    background-image: url(../assets/icons/instagram.svg);
+  }
+  &[aria-label="discord"]{
+    background-image: url(../assets/icons/discord-houve.svg);
+  }
+  &[aria-label="twitter"]{
+    background-image: url(../assets/icons/twitter-houver.svg);
+  }
+}
