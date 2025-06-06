@@ -17,5 +17,5 @@ assets, styles,icons, index.html.
 <br />
 
 <p align="center">
-    <img align="center"  src="assets/formulario.png" alt="Formulário"/>
+    <img align="center"  src="assets/download.png" alt="app"/>
 </p>
