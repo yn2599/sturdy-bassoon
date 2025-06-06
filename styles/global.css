@@ -46,6 +46,8 @@ html {
   font-size: var(--fs-base);
   line-height: 1.6;
   color: var(--text-color-primary);
+
+  overflow-x: hidden;
 }
 
 body {
@@ -89,6 +91,11 @@ a:hover {
 
 ul[role="list"] {
   list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 @media (width >= 80em){
